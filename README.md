@@ -18,7 +18,7 @@ Sensor is a Updated Fork from https://github.com/dwydler/Powershell-Skripte/tree
    | Settings | Value |
    | --- | --- |
    | EXE/Script Advanced | PRTG-PKI-CRL.ps1 |
-   | Parameters | -url "http://crl.contoso.com/pki/Contoso%20Europe%20Sub%20CA.crl" |
+   | Parameters | -url "http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl" |
    | Scanning Interval | 15 minutes |
 
 
@@ -27,13 +27,19 @@ Sensor is a Updated Fork from https://github.com/dwydler/Powershell-Skripte/tree
 ### check status auf crl and delta crl if available
 
 ```powershell
--url "http://crl.contoso.com/pki/Contoso%20Europe%20Sub%20CA.crl"
+-url "http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl"
 ```
 
-### check status of crl
+### check status of crl only
 
 ```powershell
--url "http://crl.contoso.com/pki/Contoso%20Europe%20Sub%20CA.crl" -IgnoreDeltaCRL
+-url "http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl" -IgnoreDeltaCRL
+```
+
+### check status of crl and error if delta crl could not be fetched
+
+```powershell
+-url "http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl" -ErrorOnMissingDelta
 ```
 
 ![Image](media/ok.png)
