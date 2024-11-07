@@ -1,45 +1,28 @@
-# PRTG-PKI-CRL.PS1
-
 <!-- ABOUT THE PROJECT -->
 ### About The Project
 Project Owner: Jannos-443
 
-PRTG Sensor script to monitor a certificate revocation list (CRL)
+Free and open source: [MIT License](https://github.com/Jannos-443/PRTG-Sensors/blob/main/LICENSE)
 
-Free and open source: [MIT License](https://github.com/Jannos-443/PRTG-PKI-CRL/blob/master/LICENSE)
+<br>
 
-Sensor is a Updated Fork from https://github.com/dwydler/Powershell-Skripte/tree/master/Paessler/PRTG
-
-<!-- GETTING STARTED -->
-1. Place `# PRTG-PKI-CRL.ps1` under `C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML`
-
-2. Create new sensor
-
-   | Settings | Value |
-   | --- | --- |
-   | EXE/Script Advanced | PRTG-PKI-CRL.ps1 |
-   | Parameters | -url "http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl" |
-   | Scanning Interval | 15 minutes |
+PRTG Powershell Script Collection
 
 
-## Usage
+### **Overview**
 
-### check status auf crl and delta crl if available
+[PRTG-PKI-CRL](https://github.com/Jannos-443/PRTG-Sensors/blob/main/README_PRTG-PKI-CRL.md)
+* PRTG Sensor script to monitor a certificate revocation list (CRL)
 
-```powershell
--url "http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl"
-```
+[PRTG-ProxyPac](https://github.com/Jannos-443/PRTG-M365/blob/main/README_PRTG-ProxyPac.md)
+* tbd
 
-### check status of crl only
+[PRTG-MS-Network-Assessment-Tool](https://github.com/Jannos-443/PRTG-M365/blob/main/README_PRTG-MS-Network-Assessment-Tool.md)
+* tbd
 
-```powershell
--url "http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl" -IgnoreDeltaCRL
-```
+[PRTG-ResolveDNS](https://github.com/Jannos-443/PRTG-M365/blob/main/README_PRTG-ResolveDNS.md)
+* tbd
 
-### check status of crl and error if delta crl could not be fetched
+<br>
 
-```powershell
--url "http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl" -ErrorOnMissingDelta
-```
-
-![Image](media/ok.png)
+**Click link and read documentation**
