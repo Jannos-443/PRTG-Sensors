@@ -159,9 +159,9 @@ While (Get-Process -Name NetworkAssessmentTool -ErrorAction SilentlyContinue) {
       Exit
    }
    else {
-
-      Write-Host "process still running waiting another 10s"
-      
+      if($debug){
+         Write-Host "process still running waiting another 10s"
+      }
       Start-Sleep -Seconds 10
       $Time += 10
    }
