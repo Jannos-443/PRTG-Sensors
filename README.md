@@ -14,13 +14,13 @@ PRTG Powershell Script Collection
 [PRTG-PKI-CRL](https://github.com/Jannos-443/PRTG-Sensors/blob/main/README_PRTG-PKI-CRL.md)
 * PRTG Sensor script to monitor a certificate revocation list (CRL)
 
-[PRTG-ProxyPac](https://github.com/Jannos-443/PRTG-M365/blob/main/README_PRTG-ProxyPac.md)
+[PRTG-ProxyPac](https://github.com/Jannos-443/PRTG-Sensors/blob/main/README_PRTG-ProxyPac.md)
+* PRTG Sensor script to monitor Proxy PAC result and syntax
+
+[PRTG-MS-Network-Assessment-Tool](https://github.com/Jannos-443/PRTG-Sensors/blob/main/README_PRTG-MS-Network-Assessment-Tool.md)
 * tbd
 
-[PRTG-MS-Network-Assessment-Tool](https://github.com/Jannos-443/PRTG-M365/blob/main/README_PRTG-MS-Network-Assessment-Tool.md)
-* tbd
-
-[PRTG-ResolveDNS](https://github.com/Jannos-443/PRTG-M365/blob/main/README_PRTG-ResolveDNS.md)
+[PRTG-ResolveDNS](https://github.com/Jannos-443/PRTG-Sensors/blob/main/README_PRTG-ResolveDNS.md)
 * tbd
 
 <br>
