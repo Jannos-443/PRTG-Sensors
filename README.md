@@ -18,7 +18,7 @@ PRTG Powershell Script Collection
 * PRTG Sensor script to monitor Proxy PAC result and syntax
 
 [PRTG-MS-Network-Assessment-Tool](https://github.com/Jannos-443/PRTG-Sensors/blob/main/README_PRTG-MS-Network-Assessment-Tool.md)
-* tbd
+* PRTG Sensor script to monitor Paket loss, Jitter and Latency with the Network Assessment Tool
 
 [PRTG-ResolveDNS](https://github.com/Jannos-443/PRTG-Sensors/blob/main/README_PRTG-ResolveDNS.md)
 * tbd
