@@ -7,7 +7,9 @@ Project Owner: Jannos-443
 PRTG Sensor script to monitor Proxy PAC Resolution and Syntax
 
 Using powershell this script validates a proxy pac result.
+
 You can use the -Test_URL parameter to define a URL, -ProxyPacUrl to define the PAC file and -MatchResult with a regex String to validate the output against.
+
 
 Regular Expression: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_regular_expressions?view=powershell-7.1
 
